@@ -13,8 +13,8 @@ class CoverScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return hasGameStarted? Container() :Align(
       alignment: Alignment(0,-0.1),
-      child: Container(
-        child: Text('Tap to Play', style: TextStyle(color: Colors.deepPurple[400]),),
+      child:  Container(
+        child: Text('Tap to Play', style: TextStyle(color: Colors.deepPurple[400], fontSize: 17, fontWeight: FontWeight.w700),),
       ),
     );
   }

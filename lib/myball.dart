@@ -16,7 +16,7 @@ class MyBall extends StatelessWidget {
       child: Container(
         height: 15,
         width:15 ,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           shape: BoxShape.circle,
           color: Colors.deepPurple,
         ),

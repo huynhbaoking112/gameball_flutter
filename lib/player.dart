@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 class MyPlayer extends StatelessWidget {
 
-  final playerX;
-  final playerWidth;
+  final double playerX;
+  final double playerWidth;
 
   const MyPlayer({super.key, required this.playerX, required this.playerWidth});
 
